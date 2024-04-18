@@ -3,6 +3,7 @@ package main
 import (
 	"backend/core"
 	"backend/global"
+	"backend/initialize"
 
 	"go.uber.org/zap"
 
@@ -17,6 +18,7 @@ func main() {
 	global.BE_VIPER = core.InitializeViper()
 	//日志
 	global.BE_LOG = core.InitializeZap()
+	global.KVStoreClient = initialize.InitKVClient()
 	zap.ReplaceGlobals(global.BE_LOG)
 
 	global.BE_LOG.Info("server run success on ", zap.String("zap_log", "zap_log"))
