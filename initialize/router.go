@@ -1,8 +1,8 @@
 package initialize
 
 import (
+	"backend/api"
 	"backend/router"
-	"net/http"
 
 	"github.com/gin-gonic/gin"
 )
@@ -19,14 +19,16 @@ func Routers() *gin.Engine {
 	// }))
 	systemRouter := router.RouterGroupApp.System
 
-	PublicGroup := Router.Group("")
+	PublicGroup := Router.Group("command")
 	{
-		PublicGroup.POST("command", func(context *gin.Context) {
-			context.JSON(http.StatusOK, gin.H{
-				"status":  "Success",
-				"message": "Command executed successfully",
-			})
-		})
+		PublicGroup.POST("base", api.HandleCommand)
+	}
+	FileGroup := Router.Group("file")
+	{
+		FileGroup.POST("ls", api.LsFile)
+		FileGroup.POST("cd", api.CdDir)
+		FileGroup.POST("mkdir", api.Mkdir)
+		FileGroup.POST("create", api.CreateFile)
 	}
 	{
 		systemRouter.InitBaseRouter(PublicGroup) // 注册基础功能路由 不做鉴权

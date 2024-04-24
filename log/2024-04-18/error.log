@@ -5,3 +5,12 @@
 [kvserver-backend/server]2024/04/18 - 03:25:16.384	[31merror[0m	/home/ljw/SE8/kvserver/backend/core/server.go:38	accept tcp [::]:8889: use of closed network connection
 [kvserver-backend/server]2024/04/18 - 03:26:14.205	[31merror[0m	/home/ljw/SE8/kvserver/backend/core/server.go:38	accept tcp [::]:8889: use of closed network connection
 [kvserver-backend/server]2024/04/18 - 03:54:51.085	[31merror[0m	/home/ljw/SE8/kvserver/backend/core/server.go:38	accept tcp [::]:8889: use of closed network connection
+[kvserver-backend/server]2024/04/18 - 23:05:06.110	[31merror[0m	/home/ljw/SE8/kvserverBE/core/server.go:38	accept tcp [::]:8889: use of closed network connection
+[kvserver-backend/server]2024/04/18 - 23:16:25.923	[31merror[0m	/home/ljw/SE8/kvserverBE/core/server.go:38	accept tcp [::]:8889: use of closed network connection
+[kvserver-backend/server]2024/04/18 - 23:17:17.248	[31merror[0m	/home/ljw/SE8/kvserverBE/core/server.go:38	accept tcp [::]:8889: use of closed network connection
+[kvserver-backend/server]2024/04/18 - 23:19:02.079	[31merror[0m	/home/ljw/SE8/kvserverBE/core/server.go:38	accept tcp [::]:8889: use of closed network connection
+[kvserver-backend/server]2024/04/18 - 23:20:25.694	[31merror[0m	/home/ljw/SE8/kvserverBE/core/server.go:38	accept tcp [::]:8889: use of closed network connection
+[kvserver-backend/server]2024/04/18 - 23:30:18.276	[31merror[0m	/home/ljw/SE8/kvserverBE/core/server.go:38	accept tcp [::]:8889: use of closed network connection
+[kvserver-backend/server]2024/04/18 - 23:36:35.893	[31merror[0m	/home/ljw/SE8/kvserverBE/core/server.go:38	accept tcp [::]:8889: use of closed network connection
+[kvserver-backend/server]2024/04/18 - 23:43:38.379	[31merror[0m	/home/ljw/SE8/kvserverBE/core/server.go:38	accept tcp [::]:8889: use of closed network connection
+[kvserver-backend/server]2024/04/18 - 23:44:33.030	[31merror[0m	/home/ljw/SE8/kvserverBE/core/server.go:38	accept tcp [::]:8889: use of closed network connection

@@ -1,0 +1,12 @@
+[kvserver-backend/server]2024/04/19 - 00:06:04.003	[34minfo[0m	/home/ljw/SE8/kvserverBE/main.go:24	server run success on 	{"zap_log": "zap_log"}
+[kvserver-backend/server]2024/04/19 - 00:06:04.012	[34minfo[0m	/home/ljw/SE8/kvserverBE/core/server.go:26	server run success on 	{"address": ":8889"}
+[kvserver-backend/server]2024/04/19 - 00:08:16.276	[34minfo[0m	/home/ljw/SE8/kvserverBE/main.go:24	server run success on 	{"zap_log": "zap_log"}
+[kvserver-backend/server]2024/04/19 - 00:08:16.306	[34minfo[0m	/home/ljw/SE8/kvserverBE/core/server.go:26	server run success on 	{"address": ":8889"}
+[kvserver-backend/server]2024/04/19 - 00:14:08.297	[34minfo[0m	/home/ljw/SE8/kvserverBE/main.go:24	server run success on 	{"zap_log": "zap_log"}
+[kvserver-backend/server]2024/04/19 - 00:14:08.346	[34minfo[0m	/home/ljw/SE8/kvserverBE/core/server.go:26	server run success on 	{"address": ":8889"}
+[kvserver-backend/server]2024/04/19 - 00:20:54.661	[34minfo[0m	/home/ljw/SE8/kvserverBE/main.go:24	server run success on 	{"zap_log": "zap_log"}
+[kvserver-backend/server]2024/04/19 - 00:20:54.862	[34minfo[0m	/home/ljw/SE8/kvserverBE/core/server.go:26	server run success on 	{"address": ":8889"}
+[kvserver-backend/server]2024/04/19 - 13:27:05.872	[34minfo[0m	/home/ljw/SE8/kvserverBE/main.go:24	server run success on 	{"zap_log": "zap_log"}
+[kvserver-backend/server]2024/04/19 - 13:27:05.876	[34minfo[0m	/home/ljw/SE8/kvserverBE/core/server.go:26	server run success on 	{"address": ":8889"}
+[kvserver-backend/server]2024/04/19 - 13:32:29.864	[34minfo[0m	/home/ljw/SE8/kvserverBE/main.go:24	server run success on 	{"zap_log": "zap_log"}
+[kvserver-backend/server]2024/04/19 - 13:32:29.865	[34minfo[0m	/home/ljw/SE8/kvserverBE/core/server.go:26	server run success on 	{"address": ":8889"}

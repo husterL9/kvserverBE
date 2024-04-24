@@ -1,0 +1,4 @@
+[kvserver-backend/server]2024/04/22 - 16:03:10.265	[34minfo[0m	/home/ljw/SE8/kvserverBE/main.go:24	server run success on 	{"zap_log": "zap_log"}
+[kvserver-backend/server]2024/04/22 - 16:03:10.286	[34minfo[0m	/home/ljw/SE8/kvserverBE/core/server.go:26	server run success on 	{"address": ":8889"}
+[kvserver-backend/server]2024/04/22 - 17:04:02.742	[34minfo[0m	/home/ljw/SE8/kvserverBE/main.go:24	server run success on 	{"zap_log": "zap_log"}
+[kvserver-backend/server]2024/04/22 - 17:04:02.833	[34minfo[0m	/home/ljw/SE8/kvserverBE/core/server.go:26	server run success on 	{"address": ":8889"}
